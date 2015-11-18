@@ -29,7 +29,7 @@ subplot(2,1,1)
 plot(mic_1), axis([0 16000 -0.12 0.12]);
 title('Right microphone (closer to music)')
 xlabel('Sampled points');
-subplot(2,1,2)
+%subplot(2,1,2)
 plot(mic_2), axis([0 16000 -0.12 0.12]);
 title('Left microphone (closer to me)')
 xlabel('Sampled points');
